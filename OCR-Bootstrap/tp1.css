@@ -8,3 +8,17 @@
     
     text-align: center;
 }
+
+.contenu {
+    height: 200px;
+}
+
+.aside{
+    height: 50px;
+}
+.entete, .footer {
+    height: 50px;
+}
+.red {background-color: red;}
+.blue {background-color: blue;}
+.purple {background-color: purple;}
