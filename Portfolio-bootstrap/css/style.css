@@ -1,0 +1,28 @@
+/*=====================================
+*       BASE
+=======================================*/
+
+body {
+}
+
+.box1 {border:  1px red solid;}
+.box2 {border:  1px yellow solid;}
+
+/*=====================================
+*       HEADER
+=======================================*/
+header {
+    background-image: url("../images/image2.png");
+    background-position: top;
+    background-attachment: fixed;
+}
+
+
+/*=====================================
+*       MAIN
+=======================================*/
+.content {
+    background-image: url("../images/image.png");
+    background-position: top;
+    background-attachment: fixed;
+}
