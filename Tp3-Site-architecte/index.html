@@ -34,6 +34,18 @@
       img {
         width: 100%;
       }
+    /*---Mes Modifications --*/
+      .row {
+        margin-left: -15px;
+        margin-right: -45px;
+      }
+
+      .jumbotron.container {
+        background-color: rgba(238, 238, 238, 0.5);
+      }
+      .jumbotron h1, .jumbotron p {
+        color: black
+      }
 
     </style>
 
@@ -47,27 +59,68 @@
         ================================================== -->
         <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
           <div class="row">
-          	<div class="col-xs-3 col-sm-3 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
+          	<div class="col-xs-3 col-sm-3 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1">
               <a class="navbar-brand" href="#page-top">La maison de l'architecture</a>
           	</div>
 
-        	<ul class="nav navbar-nav">
-              <li class="hidden"><a href="#page-top"></a></li>
-              <li><a href="#accueil">Accueil</a></li>
-              <li><a href="#qui">Qui sommes-nous ?</a></li>
-              <li><a href="#contact">Contact</a></li>
-        	</ul>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1">
+              <ul class="nav navbar-nav">
+                <li class="hidden"><a href="#page-top"></a></li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#qui">Qui sommes-nous ?</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
           </div>
         </nav>
       </header>
 
+
       <!-- Caroussel
       ================================================== -->
-      <img src="assets/img/archi1.jpg" alt="Architecture">
-      <img src="assets/img/archi2.jpg" alt="Architecture">
-      <img src="assets/img/archi3.jpg" alt="Architecture">
-      <img src="assets/img/archi4.jpg" alt="Architecture">
+      <div class="row carousel-row">
+        <div class="col-md-12 col-lg-12 slide-row">
+          <div class="carousel slide slide-carousel" data-ride="carousel">
+            <!--&lt;!&ndash; Indicators &ndash;&gt;-->
+            <!--<ol class="carousel-indicators">-->
+              <!--<li data-target="#carousel-1" data-slide-to="0" class="active"></li>-->
+              <!--<li data-target="#carousel-1" data-slide-to="1"></li>-->
+              <!--<li data-target="#carousel-1" data-slide-to="2"></li>-->
+            <!--</ol>-->
 
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="assets/img/archi1.jpg" alt="Architecture">
+              </div>
+              <div class="item">
+                <img src="assets/img/archi2.jpg" alt="Architecture">
+               </div>
+              <div class="item">
+                <img src="assets/img/archi3.jpg" alt="Architecture">
+               </div>
+              <div class="item">
+                <img src="assets/img/archi4.jpg" alt="Architecture">
+              </div>
+            </div>
+          </div>
+          <div class="slide-content">
+            <h4>Example product</h4>
+
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+            </p>
+          </div>
+          <div class="slide-footer">
+                  <span class="pull-right buttons">
+                      <button class="btn btn-sm btn-default"><i class="fa fa-fw fa-eye"></i> Show</button>
+                      <button class="btn btn-sm btn-primary"><i class="fa fa-fw fa-shopping-cart"></i> Buy</button>
+                  </span>
+          </div>
+        </div>
+      </div>
+    </div>
       <!-- Corps de page déjà codé
       ================================================== -->
       <div class="container">
@@ -84,7 +137,7 @@
           <p class="col-sm-12 col-md-7 col-md-pull-5">Notre équipe est jeune, experte et motivée. Notre entreprise est certifiée ISO 9001. Nous cherchons en permanence à améliorer la qualité de nos services et nous sommes à l'écoute de nos clients.</p>
         </div>
 
-        <div class="jumbotron" id="contact">
+        <div class="jumbotron container" id="contact">
           <h1 class="text-center">Un message pour nous ?</h1>
           <form role="form" class="row">
             <div class="form-group col-lg-4">
@@ -103,12 +156,14 @@
 
       <!-- Pied de page
       ================================================== -->
-      <footer>
-        <a class="btn btn-default" href="#"><i class="fa fa-twitter fa-2x"></i></a>
-        <a class="btn btn-default" href="#"><i class="fa fa-facebook fa-2x"></i></a>
-        <a class="btn btn-default" href="#"><i class="fa fa-google-plus fa-2x"></i></a>
-        <a class="btn btn-default" href="#"><i class="fa fa-flickr fa-2x"></i></a>
-        <a class="btn btn-default" href="#"><i class="fa fa-spotify fa-2x"></i></a>
+      <footer container-fluid>
+        <div class="text-center">
+          <a class="btn btn-default" href="#"><i class="fa fa-twitter fa-2x"></i></a>
+          <a class="btn btn-default" href="#"><i class="fa fa-facebook fa-2x"></i></a>
+          <a class="btn btn-default" href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+          <a class="btn btn-default" href="#"><i class="fa fa-flickr fa-2x"></i></a>
+          <a class="btn btn-default" href="#"><i class="fa fa-spotify fa-2x"></i></a>
+        </div>
       </footer>
 
     </div>
