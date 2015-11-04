@@ -3,65 +3,116 @@
 /*=====================================*/
 
 body {
-}
-
-.box1 {border:  1px red solid;}
-.box2 {border:  1px yellow solid;}
-.yellow {color: yellow;}
-/*.img-responsive {*/
-    /*border: 1px red solid;*/
-/*}*/
-
-.container {
-    width: 100%
-}
-/*=====================================*/
-       /*HEADER*/
-/*=====================================*/
-header {
-    background-image: url("../images/image2.png");
-    background-position: top;
-    background-attachment: fixed;
-}
-
-
-/*=====================================*/
-       /*MAIN*/
-/*=====================================*/
-.content {
     background-image: url("../images/image.png");
     background-position: top;
     background-attachment: fixed;
+
+    padding: 0;
+    margin: 0;
+
+    color: white;
+    font-size:12px;
 }
-.box {
-    color:  white;
+
+header, footer {
+    background-image: url("../images/image2.png");
+    background-position: top;
+    background-attachment: fixed;
+
+    width: 100%;
 }
-.box3 li{
-    list-style-type: none;
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.image {
+    width: 215px;
+    height: 150px;
+}
+
+/*=====================================*/
+        /*COMMUN*/
+/*=====================================*/
+
+button {
+    background: none;
+    border: none;
 }
 
 
-.filtre li {
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 10px;
+
+/*=========MAIN=========*/
+.main{
+    height:500px;}
+
+.main h2 {
+    margin-bottom: 20px;
+    color: white;
 }
+.content {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding-left: 0;
+}
+/*======== PORTFOLIO==========*/
 
 .active {
     background-color: #E95A44;
-    width:  100%;
     height: auto;
-    padding: 15px;}
-.btn-primary:hover {
-    background-color: #E95A44 ;
-    border: none;
+    padding: 5px;
+    color: white;
+    border: solid 1px #E95A44;
 }
-/*=====================================*/
-       /*FOOTER*/
-/*=====================================*/
+
+.mix {
+    margin: 5px;
+}
+
+
+.portfolio-wrapper {
+    position: relative;
+}
+
+.label {
+    width: 100%;
+    height: 20px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    /*visibility: hidden;*/
+
+    background: #666 none repeat scroll 0% 0%;
+    cursor: pointer
+}
+
+.label  a{
+    line-height: 2;
+    color: white;
+}
+
+/*===========    FOOTER   =======*/
 footer {
     background-image: url("../images/image2.png");
     background-position: top;
     background-attachment: fixed;
     padding-top: 10px;
+}
+
+
+
+/*=====================================*/
+    /*EVENEMENT*/
+/*=====================================*/
+
+#Container .mix{
+    display: none;
+}
+
+.portfolio-wrapper img:hover {
+    visibility: visible;
 }
