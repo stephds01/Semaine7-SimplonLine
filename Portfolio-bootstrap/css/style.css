@@ -1,16 +1,23 @@
-/*=====================================
-*       BASE
-=======================================*/
+/*=====================================*/
+       /*BASE*/
+/*=====================================*/
 
 body {
 }
 
 .box1 {border:  1px red solid;}
 .box2 {border:  1px yellow solid;}
+.yellow {color: yellow;}
+/*.img-responsive {*/
+    /*border: 1px red solid;*/
+/*}*/
 
-/*=====================================
-*       HEADER
-=======================================*/
+.container {
+    width: 100%
+}
+/*=====================================*/
+       /*HEADER*/
+/*=====================================*/
 header {
     background-image: url("../images/image2.png");
     background-position: top;
@@ -18,11 +25,43 @@ header {
 }
 
 
-/*=====================================
-*       MAIN
-=======================================*/
+/*=====================================*/
+       /*MAIN*/
+/*=====================================*/
 .content {
     background-image: url("../images/image.png");
     background-position: top;
     background-attachment: fixed;
+}
+.box {
+    color:  white;
+}
+.box3 li{
+    list-style-type: none;
+}
+
+
+.filtre li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.active {
+    background-color: #E95A44;
+    width:  100%;
+    height: auto;
+    padding: 15px;}
+.btn-primary:hover {
+    background-color: #E95A44 ;
+    border: none;
+}
+/*=====================================*/
+       /*FOOTER*/
+/*=====================================*/
+footer {
+    background-image: url("../images/image2.png");
+    background-position: top;
+    background-attachment: fixed;
+    padding-top: 10px;
 }
