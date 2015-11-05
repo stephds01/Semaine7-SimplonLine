@@ -71,11 +71,13 @@
             <button class="filter" data-filter=".cat4">Ruby</button>
         </div>
 
+        <!-- items filtred-->
+
         <div id="Container">
             <div class="mix cat2" data-my-order="2">
                 <div class="portfolio-wrapper">
                     <img src="images/portfolios/logo/5.jpg" class="image img-responsive" alt="Html5 & JS">
-                    <div class="label">
+                    <div id="label" class="label">
                         <a class="text-title">Annuaire</a>
                         <span class="text-category">Javascript</span>
                     </div>
@@ -234,6 +236,14 @@
 
     $('#Container').mixitup({
         effects: ['fade','scale','rotateZ'],
+    });
+
+    //Scroll du label
+    var theLabel = $('#label');
+    theLabel.hover(function() {
+        $(this)
+                .animate({height: '50px', marginTop: '0px',  width: '100%' }, 1000, 'jswing')
+                .animate({height: '0px', marginBottom: '0px',  width: '100%' }, 1000, 'jswing')
     });
 </script>
 </body>

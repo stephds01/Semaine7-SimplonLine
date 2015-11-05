@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head >
+    <meta charset="UTF-8">
+    <title></title>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <style>
+        .portfolio-wrapper {
+            position: relative;
+        }
+        .label {
+            width: 100%;
+            height: 20px;
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+
+            /*visibility: hidden;*/
+
+            background: #666 none repeat scroll 0% 0%;
+            cursor: pointer
+        }
+
+        .label  a{
+            line-height: 2;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div id="Container">
+    <div class="mix cat2" data-my-order="2">
+        <div class="portfolio-wrapper">
+            <img id="img" src="../Portfolio-bootstrap/images/portfolios/logo/5.jpg" class="image img-responsive" alt="Html5 & JS">
+            <div id="label" class="label">
+                <a class="text-title">Annuaire</a>
+                <span class="text-category">Javascript</span>
+            </div>
+            <div class="label-bg"></div>
+        </div>
+    </div>
+
+
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../Portfolio-bootstrap/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="../Portfolio-bootstrap/js/jquery.mixitup.min.js"></script>
+
+<script type="text/javascript">
+
+    $('#Container').mixitup({
+        effects: ['fade','scale','rotateZ']
+    });
+
+////effacement de l'image
+//    var theImage = $('#img');
+//    theImage.hover(function() {
+//        $(this)
+//        .delay({height: '50px', marginTop: '0px',  width: '100%' }, 1000, 'jswing')
+//        .animate({height: '0px', marginBottom: '0px',  width: '100%' }, 1000, 'jswing')
+//        });
+
+    var hoverEffect = $('#Container');
+
+//    hoverEffect: function() {
+// Fonction pour l'effet "hover"
+        hoverEffect.hover(
+                function () {
+                    $(this).find('#label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+                    $(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');
+                },
+                function () {
+                    $(this).find('#label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+                    $(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');
+                }
+        );
+//    };
+
+
+
+
+
+
+//Scroll du label
+    var theLabel = $('#label');
+    theLabel.hover(function() {
+        $(this)
+        .animate({height: '0px', marginBottom: '0px',  width: '100%' }, 1000, 'jswing')
+                .animate({height: '50px', marginTop: '0px',  width: '100%' }, 1000, 'jswing')
+
+    });
+
+
+</script>
+</body>
+</html>
