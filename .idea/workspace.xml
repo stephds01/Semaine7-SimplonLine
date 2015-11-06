@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdf19daa-8ac8-4b5b-a4b7-7a44d66f86f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoursJS_OCR/chapitre_4/html/cours.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoursJS_OCR/chapitre_4/js/cours.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoursJS_OCR/chapitre_4/js/fizzbuzz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoursJS_OCR/chapitre_4/js/manege.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoursJS_OCR/chapitre_4/js/multiplication.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoursJS_OCR/chapitre_4/js/oui_non.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoursJS_OCR/chapitre_4/js/parite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoursJS_OCR/chapitre_4/js/saisie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoursJS_OCR/chapitre_4/js/triangle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoursJS_OCR/chapitre_3/html/cours.html" afterPath="$PROJECT_DIR$/CoursJS_OCR/chapitre_3/html/cours.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoursJS_OCR/chapitre_3/js/heures_suivantes.js" afterPath="$PROJECT_DIR$/CoursJS_OCR/chapitre_3/js/heures_suivantes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="fdf19daa-8ac8-4b5b-a4b7-7a44d66f86f9" name="Default" comment="" />
     <ignored path="Semaine7-SimplonLine.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -170,50 +157,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Semaine7-SimplonLine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Semaine7-SimplonLine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Semaine7-SimplonLine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoursJS_OCR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapitre_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Semaine7-SimplonLine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Semaine7-SimplonLine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoursJS_OCR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapitre_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
