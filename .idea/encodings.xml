@@ -2,5 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/CoursJS_OCR/chapitre_2/js/conversion.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CoursJS_OCR/chapitre_5/js/calculette.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CoursJS_OCR/chapitre_5/js/carre.js" charset="UTF-8" />
   </component>
 </project>
