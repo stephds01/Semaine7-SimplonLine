@@ -32,15 +32,48 @@
     //}
 
 //MOT Palindrome
-var motSaisi = prompt('Entrez un mot');
+//var motSaisi = prompt('Entrez un mot');
+//
+//var motInverse = inverser(motSaisi);
+//console.log("Il s'écrit à l'envers " + inverser(motSaisi));
+//    if(motSaisi.toLowerCase() === inverser.toLowerCase() ){
+//        console.log('Le mot est un palindrome');
+//    }
+//    else{
+//        console.log('Ce mot n\'est pas un palindrome');
+//    }
 
-var motInverse = inverser(motSaisi);
-console.log("Il s'écrit à l'envers " + inverser(motSaisi));
-    if(motSaisi.toLowerCase() === inverser.toLowerCase() ){
-        console.log('Le mot est un palindrome');
+// Conversion en "leet speak"
+
+function convertirEnLeetSpeak(mot) {
+    var motleet = "";
+
+    for (var i = 0; i < mot.lenght; i++) {
+        motLeet = motLeet + trouverLettreLeet(mot[i]);
     }
-    else{
-        console.log('Ce mot n\'est pas un palindrome');
+    return motLeet;
+};
+
+
+   function trouverLaLettreLeet(lettre){
+       var lettreLeet = lettre;
+       switch(lettre.toLowerCase()){
+           case "a":
+               console.log(4);
+               break;
+           case "b":
+               console.log(8);
+               break;
+           case "e":
+               console.log(3) ;
+               break;
+          case "l":
+               console.log(0);
+               break;
+           default :
+               console.log("Cette lettre n'est pas prise en charge");
+       }
+       return lettreLeet;
     }
 
 
@@ -48,13 +81,16 @@ console.log("Il s'écrit à l'envers " + inverser(motSaisi));
 
 
 
-var mot = prompt("Ecrivez un mot :");
 
-var longueurMot = mot.length;
-console.log("Le mot " + mot + " contient " + longueurMot + " caractères");
-console.log("En majuscule, il s'écrit comme cela :" + mot.toUpperCase());
-console.log("En minuscule, il s'écrit comme cela :" + mot.toLowerCase());
-console.log("Il s'ecrit à l'envers : " + inverser(mot));
+
+console.log(trouverLettreLeet());
+//var mot = prompt("Ecrivez un mot :");
+//
+//var longueurMot = mot.length;
+//console.log("Le mot " + mot + " contient " + longueurMot + " caractères");
+//console.log("En majuscule, il s'écrit comme cela :" + mot.toUpperCase());
+//console.log("En minuscule, il s'écrit comme cela :" + mot.toLowerCase());
+//console.log("Il s'ecrit à l'envers : " + inverser(mot));
 //console.log(motInverse());
 
 
