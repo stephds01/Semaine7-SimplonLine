@@ -22,11 +22,14 @@ var CompteBancaire = {
     },
 };
 
-var CompteEpargne = {
-    initCE: function(tauxInteret){
+var CompteEpargne = Object.create(CompteBancaire);
+    //Initialise le compte épargne
+    CompteEpargne.initCE = (function(titulaire, solde, tauxInteret){
+        this.initCB(titulaire,solde);
         this.tauxInteret = tauxInteret;
-    }
-}
+};
+
+//Calcule et j'ajoute les interer
 //----------------------------------------------------------//
 var compte1 = Object.create(CompteBancaire);
 compte1.initCB("Alex", 100);
