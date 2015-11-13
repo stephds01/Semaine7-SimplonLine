@@ -29,7 +29,13 @@ var CompteEpargne = Object.create(CompteBancaire);
         this.tauxInteret = tauxInteret;
 };
 
-//Calcule et j'ajoute les interer
+//Calcule et ajoute les interets au solde du compte
+CompteEpargne.ajouterInterets = function(){
+    var interets = this.solde * this.tauxInteret;
+    this.solde +=interets;
+};
+
+
 //----------------------------------------------------------//
 var compte1 = Object.create(CompteBancaire);
 compte1.initCB("Alex", 100);
